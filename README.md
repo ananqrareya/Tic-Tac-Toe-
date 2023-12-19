@@ -16,6 +16,18 @@
 - If the board fills up without a winner, it will be a draw.
 - After each game, you will be asked if you want to play again.
 
+*Code Structure:
+- The main functions are stored in the tic_tac_toe.dart file.
+- Key functions include:
+- playGame: Manages the overall game loop, including turn taking and win conditions.
+- printboard: Displays the current state of the board.
+- choiceOfPlayers: Lets players choose their markers.
+- boardlocations: Checks if the chosen position is within the board range.
+- boardPosition: Checks if the chosen position is empty.
+- win: Determines if a player has won based on the current board state.
+- boardisFull: Checks if the board is full.
+- playAgain: Asks players if they want to restart the game.
+
 *Customization:
 - This is a basic Tic-Tac-Toe game. You can customize it further by adding features like:
 - Difficulty levels for the AI opponent.
